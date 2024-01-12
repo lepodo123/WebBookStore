@@ -1,0 +1,168 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.box_product {
+    display: flex;
+    overflow: hidden;
+}
+
+.img_product {
+    width: 40%;
+    height: 500px;
+    margin: auto;
+}
+
+.img_product img {
+    width: 45%;
+    margin: 10%;
+}
+
+.title_product {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.box_content {
+    width: 50%;
+    margin: auto;
+}
+
+.company {
+    text-decoration: none;
+}
+
+.company:visited {
+    color: blue;
+}
+
+.company:hover {
+    color: rgb(36, 95, 95);
+    ;
+}
+
+.quantily_product {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: relative;
+}
+
+.combobox {
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid thistle;
+    font-size: 1em;
+}
+
+.pre_order {
+    border: solid 1px thistle;
+    width: 60%;
+    height: 20%px;
+    margin-right: 23%;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+.pre_order:visited {
+    color: #333;
+}
+
+.order .combobox:hover,
+.pre_order:hover {
+    border: 1px solid rgb(210, 213, 216, 1);
+}
+
+.shop_pay {
+    margin-top: 15px;
+    width: 77%;
+    height: 40px;
+    padding-top: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+}
+
+.shop_pay a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.shop_pay a:visited {
+    color: #fff;
+}
+
+.shop_pay:hover {
+    background-color: rgb(96, 74, 117);
+}
+
+.payment {
+    margin-top: 15px;
+    width: 77%;
+    text-align: center;
+}
+
+.payment_option {
+    margin-top: 30px;
+    color: #0996f5;
+    text-decoration: none;
+}
+
+.payment_option:hover {
+    color: #5891b8;
+}
+
+.wishlist {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.wishlist img {
+    width: 5%;
+    margin: 0px 5px 0 10px;
+}
+
+.detail {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+ul li {
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+
+.title_also_like {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.item_pokemon img{
+    transform: translate(18%);
+}
+.item_pokemon a{
+    font-size: 1rem;
+}
+.item_pokemon {
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item_buy_product {
+    border: #333 1px solid;
+    width: 18%;
+    overflow: hidden;
+}
+
+.content_pokemon {
+    text-align: left;
+}
